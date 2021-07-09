@@ -1,0 +1,29 @@
+version: 1
+vaults:
+    - fsPath: templates
+useFMTitle: true
+useNoteTitleForLink: true
+noAutoCreateOnDefinition: true
+noLegacyNoteRef: true
+noXVaultWikiLink: true
+lookupConfirmVaultOnCreate: false
+autoFoldFrontmatter: true
+journal:
+    dailyDomain: daily
+    name: journal
+    dateFormat: y.MM.dd
+    addBehavior: childOfDomain
+    firstDayOfWeek: 1
+site:
+    copyAssets: true
+    siteHierarchies:
+        - root
+    siteRootDir: docs
+    usePrettyRefs: true
+    title: Dendron
+    description: Personal knowledge space
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - vault
+initializeRemoteVaults: true
