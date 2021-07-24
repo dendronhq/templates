@@ -2,10 +2,11 @@
 id: dEQX87VBTFJdqBM0
 title: Project
 desc: ''
-updated: 1627011986600
+updated: 1627084105497
 created: 1627011879390
+startDate: "TODO: date to start"
+endDate: "TODO: when project ends"
 ---
-
 
 ## Goal
 <!-- What are you trying to accomplish -->
