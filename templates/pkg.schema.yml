@@ -1,0 +1,51 @@
+version: 1
+schemas:
+- id: pkg
+  desc: a package
+  parent: root
+  namespace: true
+  children:
+    - quickstart
+    - concepts
+    - arch
+    - tips
+    - faq
+    - topic
+    - lifecycle
+    - ops
+    - dev
+    - changelog
+- id: lifecycle
+- id: changelog
+- id: qa
+  desc: |
+    How to run debugger and tests
+  children:
+    - debug
+    - test
+- id: ops
+  desc: |
+    Diagnose issues
+- id: quickstart
+  desc: |
+    Getting started with the project
+- id: arch
+  title: architecture
+- id: dev
+  desc: |
+    Development related 
+  children:
+    - cook
+- id: concepts
+  desc: basic concepts to do with the project
+- id: tips
+- id: faq
+- id: topic
+  desc: important areas of a project
+  namespace: true
+- id: cook
+- id: debug
+  desc: how to debug an application
+- id: test
+  desc: how to test an application
+  

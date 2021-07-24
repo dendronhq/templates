@@ -1,0 +1,12 @@
+version: 1
+imports: []
+schemas:
+  - id: proj
+    children: []
+    title: proj
+    parent: root
+  - id: projInstance
+    pattern: "*"
+    template:
+      id: templates.proj
+      type: note
