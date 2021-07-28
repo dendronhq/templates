@@ -15,6 +15,13 @@ schemas:
     - ops
     - dev
     - changelog
+    - config
+    - advanced
+- id: config
+  desc: "How to configure the package"
+- id: advanced
+  pattern: adv
+  desc: "Advanced topics"
 - id: lifecycle
 - id: changelog
 - id: qa
