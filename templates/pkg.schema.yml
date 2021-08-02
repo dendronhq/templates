@@ -30,6 +30,11 @@ schemas:
   children:
     - debug
     - test
+    - perf
+- id: perf
+  title: performance
+  desc: |
+    Profile performance
 - id: ops
   desc: |
     Diagnose issues
