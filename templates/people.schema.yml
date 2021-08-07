@@ -1,0 +1,12 @@
+version: 1
+imports: []
+schemas:
+  - id: people
+    children: []
+    namespace: true
+    title: people
+    parent: root
+    template:
+      id: templates.people
+      type: note
+
