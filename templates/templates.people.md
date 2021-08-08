@@ -8,6 +8,7 @@ social:
   linkedin:
   twitter:
   facebook:
+  discord: 
 contact:
   number:
   email: 
