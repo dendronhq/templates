@@ -4,9 +4,8 @@ schemas:
   - id: proj
     children: []
     title: Project
+    namespace: true
     parent: root
-  - id: projInstance
-    pattern: "*"
     template:
       id: templates.project
       type: note
