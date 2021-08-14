@@ -3,10 +3,10 @@ imports: []
 schemas:
   - id: proj
     children: []
-    title: proj
+    title: Project
     parent: root
   - id: projInstance
     pattern: "*"
     template:
-      id: templates.proj
+      id: templates.project
       type: note

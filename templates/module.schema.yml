@@ -1,0 +1,68 @@
+version: 1
+schemas:
+- id: module
+  parent: root
+  namespace: true
+  children:
+    - quickstart
+    - concepts
+    - architecture
+    - tips
+    - faq
+    - topic
+    - lifecycle
+    - ops
+    - dev
+    - changelog
+    - config
+    - advanced
+    - best
+- id: best
+  desc: | 
+    Best practices
+- id: config
+  desc: "How to configure the package"
+- id: advanced
+  pattern: adv
+  desc: "Advanced topics"
+- id: lifecycle
+- id: changelog
+- id: qa
+  desc: |
+    How to run debugger and tests
+  children:
+    - debug
+    - test
+    - perf
+- id: performance
+  pattern: perf
+  desc: |
+    Profile performance
+- id: ops
+  desc: |
+    Diagnose issues
+  children:
+    - logs
+- id: logs
+- id: quickstart
+- id: architecture
+  pattern: arch
+- id: dev
+  desc: |
+    Development related 
+  children:
+    - cook
+    - quickstart
+- id: concepts
+  desc: basic concepts to do with the project
+- id: tips
+- id: faq
+- id: topic
+  pattern: t
+  desc: important areas of a project
+  namespace: true
+- id: cook
+- id: debug
+  desc: how to debug an application
+- id: test
+  desc: how to test an application
