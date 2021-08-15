@@ -1,0 +1,22 @@
+version: 1
+imports: [module]
+schemas:
+- id: service
+  desc: a package
+  pattern: s
+  parent: root
+  namespace: true
+  children:
+    - module.quickstart
+    - module.concepts
+    - module.architecture
+    - module.tips
+    - module.faq
+    - module.topic
+    - module.lifecycle
+    - module.ops
+    - module.dev
+    - module.changelog
+    - module.config
+    - module.advanced
+    - module.best
