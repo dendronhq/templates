@@ -46,7 +46,26 @@ schemas:
 - id: logs
 - id: quickstart
 - id: architecture
+  desc: > 
+    Explanations of architecture
   pattern: arch
+  children: 
+   - design
+   - hacks
+   - wip
+   - internal
+- id: internal
+  desc: >
+    Internal details of code
+- id: wip
+  desc: >
+    Current work in progress
+- id: hacks
+  desc: >
+    Shortcuts taken
+- id: design
+  desc: >
+    Explanations of design decisions
 - id: dev
   desc: |
     Development related 
