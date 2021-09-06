@@ -2,7 +2,7 @@
 id: yz7BaxKE7IssV5Go
 title: Module
 desc: ''
-updated: 1630440536274
+updated: 1630619384841
 created: 1627924831114
 ---
 
@@ -81,3 +81,7 @@ How do we get started with the module as a user
 - namespace: true
 
 This is for any major component of the module and might be a module itself.
+
+### wip
+
+Work in progress represents code that is currently being refactored

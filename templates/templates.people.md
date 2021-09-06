@@ -9,6 +9,9 @@ social:
   twitter:
   facebook:
   discord: 
+  github:
+  hn:
+  website:
 contact:
   number:
   email: 
