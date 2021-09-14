@@ -2,11 +2,11 @@
 id: hpEdCpUITvOQQ7wQ
 title: Test
 desc: ''
-updated: 1627140087770
+updated: 1631471787624
 created: 1627135950477
 ---
 
-## Test:Unit
+## Unit Testing
 
 ### Writing
 <!-- Writing unit test -->
@@ -14,8 +14,10 @@ created: 1627135950477
 ### Executing
 <!-- Running unit test -->
 
-## Test:Integration
+## Integration Testing
 
 ### Writing
 
 ### Executing
+
+## Manual Testing

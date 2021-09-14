@@ -17,9 +17,11 @@ schemas:
     - config
     - advanced
     - best
+    - design
+    - qa
 - id: best
   desc: | 
-    Best practices
+    Best practicess
 - id: config
   desc: "How to configure the package"
 - id: advanced
@@ -33,7 +35,7 @@ schemas:
   children:
     - debug
     - test
-    - perf
+    - performance
 - id: performance
   pattern: perf
   desc: |
@@ -50,7 +52,7 @@ schemas:
     Explanations of architecture
   pattern: arch
   children: 
-   - design
+   - decision
    - hacks
    - wip
    - internal
@@ -63,15 +65,20 @@ schemas:
 - id: hacks
   desc: >
     Shortcuts taken
+- id: decision
+  desc: >
+    Explanations of architectural decisions made
 - id: design
   desc: >
-    Explanations of design decisions
+    design process 
 - id: dev
   desc: |
     Development related 
   children:
     - cook
     - quickstart
+    - build
+- id: build
 - id: concepts
   desc: basic concepts to do with the project
 - id: tips
