@@ -78,6 +78,8 @@ schemas:
     - cook
     - quickstart
     - build
+    - conventions
+- id: conventions
 - id: build
 - id: concepts
   desc: basic concepts to do with the project
