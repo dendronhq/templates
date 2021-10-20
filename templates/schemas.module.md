@@ -2,7 +2,7 @@
 id: yz7BaxKE7IssV5Go
 title: Module
 desc: ''
-updated: 1630619384841
+updated: 1633299013130
 created: 1627924831114
 ---
 
@@ -41,7 +41,7 @@ An archietcture node can have children if it exceeds 800 words. At that point, e
 
 ### dev
 
-This goes into specifics of the development process
+This goes into specifics of the development process. Also includes cookbooks on doing specific operations
 
 #### quickstart
 
