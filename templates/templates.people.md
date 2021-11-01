@@ -2,7 +2,7 @@
 id: r9RV8pXvtAcoYjyn
 title: People
 desc: ''
-updated: 1629409698266
+updated: 1635429290959
 created: 1628084685978
 social:
   linkedin:
