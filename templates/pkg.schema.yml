@@ -6,6 +6,7 @@ schemas:
   parent: root
   namespace: true
   children:
+    - module.qa
     - module.quickstart
     - module.concepts
     - module.architecture
