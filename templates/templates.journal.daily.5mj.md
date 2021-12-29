@@ -5,7 +5,7 @@ desc: >-
   Start your day, and end your day, with a simple journal method. The Five
   Minute Journal (5MJ) helps you express gratitude, make your days better, and
   focus on mindfulness.
-updated: 1640783638766
+updated: 1640789057397
 created: 1640783124585
 ---
 
@@ -19,7 +19,7 @@ Based on the journaling method created by Intelligent Change:
 
 <!-- Fill out this section after waking up -->
 
-### Gratitute
+### Gratitude
 
 I am grateful for:
 
