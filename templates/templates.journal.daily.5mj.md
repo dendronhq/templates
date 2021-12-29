@@ -1,7 +1,10 @@
 ---
 id: x4bdzc7HETP9CDVGJJaHT
 title: The Five Minute Journal
-desc: 'Start your day, and end your day, with a simple journal method. The Five Minute Journal (5MJ) helps you express gratitude, make your days better, and focus on mindfulness.'
+desc: >-
+  Start your day, and end your day, with a simple journal method. The Five
+  Minute Journal (5MJ) helps you express gratitude, make your days better, and
+  focus on mindfulness.
 updated: 1640783638766
 created: 1640783124585
 ---
