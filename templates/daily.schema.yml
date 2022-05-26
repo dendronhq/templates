@@ -9,7 +9,6 @@ schemas:
 - id: journal
   title: journal
   desc: ""
-  parent: root
   children:
     - year
 - id: year
